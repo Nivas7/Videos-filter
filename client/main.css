@@ -1,0 +1,41 @@
+body {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.video {
+  transition: height 0.5s, width 0.5s, visibility 0s, opacity 0.5s linear;
+}
+
+.video-show {
+  opacity: 1;
+  visibility: visible;
+  width: auto;
+  height: auto;
+}
+
+.video-hide {
+  visibility: hidden;
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+}      
+
+.title, #loading {
+  text-align: center;
+}
+
+video {
+  width: 100%;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: lime;
+}
+
+.link {
+  margin: 0.5em;
+}
